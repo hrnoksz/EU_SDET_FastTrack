@@ -8,7 +8,7 @@ public class InsertElementToIntArray {
 
         int[] arr = {1, 2, 3, 4, 5};
 
-        int[] numbers = insertElement(arr, 2, 11);
+        int[] numbers = insertElement(arr, 5, 11);
 
         System.out.println(Arrays.toString(numbers));
 
