@@ -15,7 +15,8 @@ public class CheckLetter {
         System.out.println("Enter input: ");
         String input = scanner.next().toLowerCase();
 
-        if(input.length() > 1){
+
+        while (input.length() > 1){
             System.out.println("ERROR, please provide one char!!!");
             input = scanner.next().toLowerCase();
         }
